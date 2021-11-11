@@ -39,6 +39,12 @@ function game(){
 
     }
     console.log("Player Score: "+ playerScore);
+    if (playerScore>=3){
+        console.log("Player Wins !!")
+    }
+    else {
+        console.log("Player lose :(")
+    }
 }
 
 game();
